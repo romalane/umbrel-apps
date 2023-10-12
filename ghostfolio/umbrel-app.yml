@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ghostfolio
 category: finance
 name: Ghostfolio
-version: "1.287.0"
+version: "1.305.0"
 tagline: Manage your wealth like a boss
 description: >-
   Ghostfolio is a privacy-first, open source dashboard for your personal finances.
@@ -31,20 +31,23 @@ path: ""
 deterministicPassword: false
 torOnly: false
 releaseNotes: >
-  Changed:
+  Added
 
-  - Hid the average buy price in the position detail chart if there is no holding
-  
-  - Improved the language localization for French
-  
-  - Refactored the blog articles to standalone components
+    Added Hacker News to the As seen in section on the landing page
 
+Changed
 
-  Fixed:
-  
-  - Fixed the sorting by currency in the activities table
+    Shortened the page titles
+    Improved the language localization for German (de)
+    Upgraded prisma from version 4.16.2 to 5.2.0
+    Upgraded replace-in-file from version 6.3.5 to 7.0.1
+    Upgraded yahoo-finance2 from version 2.4.3 to 2.4.4
 
+Fixed
 
-  For full release notes and additional changes from previous version 1.269, please visit: https://github.com/ghostfolio/ghostfolio/releases
+    Fixed the alignment in the header navigation
+    Fixed the alignment in the menu of the impersonation mode
+
+  For full release notes and additional changes from previous versions, please visit: https://github.com/ghostfolio/ghostfolio/releases
 submitter: BeauAgst
 submission: https://github.com/getumbrel/umbrel-apps/pull/396
